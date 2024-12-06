@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datatypes="http://studio.genesyslab.com/common/datatypes/" xmlns:datatypes_1="http://studio.genesyslab.com/gvp/datatypes/" xmlns:gvp="http://studio.genesyslab.com/gvp/" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://studio.genesyslab.com/common/datatypes/ http://studio.genesyslab.com/common/#//datatypes http://studio.genesyslab.com/gvp/datatypes/ http://studio.genesyslab.com/gvp/#//datatypes">
-  <gvp:CallflowDiagram xmi:id="_RF4M8IobEeG_nt9_QYQUcg" name="sub_MainMenu" designedUsing="Composer 8.1.510.12" callflowType="Subcallflow">
+  <gvp:CallflowDiagram xmi:id="_RF4M8IobEeG_nt9_QYQUcg" name="sub_MainMenu_old_milind_12032024" designedUsing="Composer 8.1.510.12" callflowType="Subcallflow">
     <history>8.1.3</history>
     <history>8.1.300.01</history>
     <blocks xmi:type="gvp:EntryBlock" xmi:id="_0TDncMlhEeKE2tP5OBlA8w" name="Entry_MainMenu" starting="true" category="Entry" applicationRoot="../src/ComposerRoot.vxml">
@@ -345,7 +345,7 @@
       <parameters xmi:type="datatypes:Parameter" xmi:id="_P5IOkP71Eemw1ZB3DkTdLw" name="ObjCall" value="ObjCall" description="Enter Description" type="inout"/>
     </blocks>
     <blocks xmi:type="gvp:EcmaScriptBlock" xmi:id="_cFeFGP70Eemw1ZB3DkTdLw" name="ECMAScript_RMNFlag" category="ECMA Script" script="AppState.ObjCall.IVR_RMNCallerFlag=AppState.IVR_RMNCallerFlag;&#xD;&#xA;AppState.vPrefLangMenuPrompt='PrefLangMenuEH.wav';&#xD;&#xA;AppState.ObjCall.PreferLangFlow='Y';"/>
-    <blocks xmi:type="gvp:LogBlock" xmi:id="_cFeFGf70Eemw1ZB3DkTdLw" name="Log_RMNFlag" category="Log">
+    <blocks xmi:type="gvp:LogBlock" xmi:id="_cFeFGf70Eemw1ZB3DkTdLw" name="Log_RMNFlag" category="Log" enableStatus="Disabled">
       <loggingDetails>'AppState.ObjCall.IVR_RMNCallerFlag   '+AppState.ObjCall.IVR_RMNCallerFlag;</loggingDetails>
     </blocks>
     <blocks xmi:type="gvp:SubdialogBlock" xmi:id="_cFeFGv70Eemw1ZB3DkTdLw" name="Subdialog_SetCustPrefferedLang" category="Subdialog" uri="workspace:///ICICI_Retail_BOT_Anthos/Callflows/sub_Language.callflow">
