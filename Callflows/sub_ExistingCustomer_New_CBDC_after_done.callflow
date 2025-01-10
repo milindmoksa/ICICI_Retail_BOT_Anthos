@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datatypes="http://studio.genesyslab.com/common/datatypes/" xmlns:datatypes_1="http://studio.genesyslab.com/gvp/datatypes/" xmlns:gvp="http://studio.genesyslab.com/gvp/" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://studio.genesyslab.com/common/datatypes/ http://studio.genesyslab.com/common/#//datatypes http://studio.genesyslab.com/gvp/datatypes/ http://studio.genesyslab.com/gvp/#//datatypes">
-  <gvp:CallflowDiagram xmi:id="_RF4M8IobEeG_nt9_QYQUcg" name="sub_ExistingCustomer_New_CBDC" designedUsing="Composer 8.1.510.12" callflowType="Subcallflow">
+  <gvp:CallflowDiagram xmi:id="_RF4M8IobEeG_nt9_QYQUcg" name="sub_ExistingCustomer_New_CBDC_after_done" designedUsing="Composer 8.1.510.12" callflowType="Subcallflow">
     <history>8.1.3</history>
     <history>8.1.300.01</history>
     <blocks xmi:type="gvp:EntryBlock" xmi:id="_bj10gN-AEemIS4svOpbVng" name="Entry1" starting="true" category="Entry" applicationRoot="../src/ComposerRoot.vxml">
@@ -249,9 +249,6 @@
     </blocks>
     <blocks xmi:type="gvp:AssignBlock" xmi:id="_bj3Cu9-AEemIS4svOpbVng" name="AssignCount" category="Assign" enableStatus="Disabled">
       <assignData xmi:type="datatypes:KeyValuePairItem" xmi:id="_bj3CvN-AEemIS4svOpbVng" Key="vCounter" Value="AppState.vCounter +1"/>
-    </blocks>
-    <blocks xmi:type="gvp:AssignBlock" xmi:id="_bj3Cvd-AEemIS4svOpbVng" name="tag" category="Assign" enableStatus="Disabled">
-      <assignData xmi:type="datatypes:KeyValuePairItem" xmi:id="_bj3Cvt-AEemIS4svOpbVng" Key="vTrav1" Value="''"/>
     </blocks>
     <blocks xmi:type="gvp:AssignBlock" xmi:id="_bj3Cv9-AEemIS4svOpbVng" name="Assign_AT" category="Assign" blockNotes="This block assign the agent transfer flag">
       <assignData xmi:type="datatypes:KeyValuePairItem" xmi:id="_bj3CwN-AEemIS4svOpbVng" Key="vSubCallFlag" Value="'DISCONNECT'"/>
@@ -1102,11 +1099,6 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_bjwU9d-AEemIS4svOpbVng" type="4018"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_bjwU9t-AEemIS4svOpbVng" type="4019"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bjwU99-AEemIS4svOpbVng" x="782" y="1346"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_bjwU-N-AEemIS4svOpbVng" type="1011" element="_bj3Cvd-AEemIS4svOpbVng" fontName="Segoe UI">
-      <children xmi:type="notation:DecorationNode" xmi:id="_bjwU-d-AEemIS4svOpbVng" type="4018"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_bjwU-t-AEemIS4svOpbVng" type="4019"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bjwU-9-AEemIS4svOpbVng" x="1360" y="1258"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_bjwU_N-AEemIS4svOpbVng" type="1011" element="_bj3Cv9-AEemIS4svOpbVng" fontName="Segoe UI">
       <children xmi:type="notation:DecorationNode" xmi:id="_bjwU_d-AEemIS4svOpbVng" type="4018"/>
